@@ -1,0 +1,396 @@
+@import url(//db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display);
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    width: 70vh;
+    justify-content: space-between;
+    color: white;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    }
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav_right {
+    font-family: SF Pro Display;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0.5px 1.5px rgba(54, 122, 246, 0.25));
+    border-radius: 6px;
+    padding: 4px 14px;
+}
+
+.nav_links li {
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    transition: .6s;
+    border-radius: .6rem;
+}
+
+.nav_links li:hover {
+    border: 2px solid #FFF;
+    border-radius: .6rem;
+    transition: .6s;
+    transform: translateY(-5px);
+}
+
+main {
+    margin-top: 10vh;
+}
+
+.nav_right a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.elipse {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.elipse2 {
+    position: absolute;
+    width: 457px;
+    height: 457px;
+    left: 0;
+    top: 0%;
+    z-index: -1;
+}
+
+.elipse3 {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    z-index: -1;
+}
+
+.elipse4 {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -1;
+}
+
+.elipse5 {
+    position: absolute;
+    left: 0;
+    bottom: -1600px;
+}
+
+.aur1 {
+    position: absolute;
+    left: 75%;
+    top: 18%;
+}
+
+.aur2 {
+    position: absolute;
+    left: 47%;
+    top: 29%;
+}
+
+.aur3 {
+    position: absolute;
+    left: 54%;
+    top: 60%;
+}
+
+.aur4 {
+    position: absolute;
+    left: 54%;
+    top: 19%;
+}
+
+.main_text {
+    margin-left: 10vh;
+    z-index: 99;
+}
+
+.main_text h3{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+}
+
+.main_text p {
+    font-family: SF Pro Display;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.main_text a {
+    font-family: SF Pro Display;
+    align-items: flex-start;
+    padding: 4px 14px;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 0.5px 1.5px rgba(54, 122, 246, 0.25));
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: .6s;
+}
+
+.main_text a:hover {
+    border: 1.02px solid #9BA4ED;
+    color: #9BA4ED;
+}
+
+.center {
+    display: flex;
+    margin: 50px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.robot_img {
+    margin-right: 15vh;
+}
+
+strong {
+    color: #9BA4ED;
+}
+
+.under {
+    display: flex;
+    justify-content: center;
+}
+
+.rect {
+    background: rgba(104, 101, 101, 0.1);
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    display: flex;
+    padding: 20px;
+    width: 115vh;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    font-family: SF Pro Display;
+    background: rgba(78, 76, 76, 0.15);
+    border-radius: 20px; 
+    width: 200px;
+    height: 200px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 0 25px;
+    padding: 10px;
+    transition: .6s;
+}
+
+.card:hover {
+    transform: translateY(-14px);
+    transition: .6s;
+    -webkit-box-shadow: 0px 12px 13px -7px #00000080; 
+    box-shadow: 0px 12px 13px -7px #00000080;
+}
+
+.rect_under {
+    display: flex;
+    justify-content: center;
+}
+
+.under2 {
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+    width: 160vh;
+}
+
+.under2 h3 {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 57px;
+}
+
+.under2 p {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.under3 {
+    align-items: flex-end;
+    display: flex;
+    border: 2px solid white;
+}
+
+.card_space {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 40vh;
+}
+
+.card_text {
+    margin-top: 15%;
+    background: rgba(161, 157, 157, 0.1);
+    display: flex;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vh;
+    height: 40vh;
+    padding: 50px;
+    backdrop-filter: blur(100px);
+    border-radius: 40px;
+}
+
+.card_text h3 {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 57px;
+}
+
+.card_text p {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.card_text a {
+    font-family: SF Pro Display;
+    align-items: flex-start;
+    padding: 4px 14px;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 0.5px 1.5px rgba(54, 122, 246, 0.25));
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: .6s;
+}
+
+.card_text a:hover {
+    border: 1.02px solid #9BA4ED;
+    color: #9BA4ED;
+}
+
+::-webkit-scrollbar {
+    width: .30rem;
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1b32dd;
+    border-radius: .5rem;
+    transition: .6s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #5160d8;
+    transition: .6s;
+}
+
+
+@media screen and (max-width: 900px) {
+    html {
+        font-size: 80%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .main_text {
+        position: absolute;
+        left: 10%;
+        top: 5%;
+        margin: 0;
+    }
+    .center {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 50%;
+    }
+
+    .aur1, .aur2, .aur3, .aur4, .elipse5, .elipse4, .elipse3 {
+        display: none;
+    }
+    .robot_img img {
+        position: absolute;
+        top: 290px;
+        left: -105px;
+    }
+
+    .cards {
+        background-color: transparent;
+        flex-direction: column;
+        margin-top: 90vh;
+    }
+
+    .card {
+        margin: 20px;
+    }
+
+    .rect {
+        background-color: rgba(0, 0, 0, 0);
+        backdrop-filter: blur(0px);
+    }
+    .man {
+    display: none;
+    }
+
+    .card_space {
+        padding: 20px;
+        margin-top: 5vh;
+    }
+
+}
