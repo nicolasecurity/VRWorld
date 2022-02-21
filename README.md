@@ -2,6 +2,9 @@
 - Landingpage estruturada e animada a partir de um projeto público no Figma.
 - A página não está totalmente responsiva.
 
+#### Confira o projeto através deste link: https://nicolasecurity.github.io/VRWorld/
+
+
 #### Tecnologias usadas: 
 
 - HTML5
