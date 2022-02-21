@@ -1,6 +1,3 @@
-@import url(//db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display);
-
-
 html {
     scroll-behavior: smooth;
 }
@@ -29,7 +26,7 @@ nav ul {
     width: 70vh;
     justify-content: space-between;
     color: white;
-    font-family: SF Pro Display;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -42,7 +39,7 @@ nav a{
     color: white;
 }
 .nav_right {
-    font-family: SF Pro Display;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     filter: drop-shadow(0px 0.5px 1.5px rgba(54, 122, 246, 0.25));
@@ -140,7 +137,7 @@ main {
 }
 
 .main_text h3{
-    font-family: SF Pro Display;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -148,13 +145,13 @@ main {
 }
 
 .main_text p {
-    font-family: SF Pro Display;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     color: white;
     margin-bottom: 20px;
 }
 
 .main_text a {
-    font-family: SF Pro Display;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     align-items: flex-start;
     padding: 4px 14px;
     border: 1px solid #FFFFFF;
@@ -206,7 +203,7 @@ strong {
 }
 
 .card {
-    font-family: SF Pro Display;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     background: rgba(78, 76, 76, 0.15);
     border-radius: 20px; 
     width: 200px;
@@ -244,7 +241,7 @@ strong {
 }
 
 .under2 h3 {
-    font-family: SF Pro Display;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -252,7 +249,7 @@ strong {
 }
 
 .under2 p {
-    font-family: SF Pro Display;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -289,7 +286,7 @@ strong {
 }
 
 .card_text h3 {
-    font-family: SF Pro Display;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -297,7 +294,7 @@ strong {
 }
 
 .card_text p {
-    font-family: SF Pro Display;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -306,7 +303,7 @@ strong {
 }
 
 .card_text a {
-    font-family: SF Pro Display;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     align-items: flex-start;
     padding: 4px 14px;
     border: 1px solid #FFFFFF;
